@@ -23,13 +23,13 @@ function load () {
                 <button>Search</button>
             </form>
         </div>
-        <a href="../home/index.html">
+        <a href="../home">
             <p>Home</p>
         </a>
-        <a href="../projects/index.html">
+        <a href="../projects">
             <p>Projects</p>
         </a>
-        <a href="../contact/index.html">
+        <a href="../contact">
             <p>Contact</p>
         </a>
     </div>`;
