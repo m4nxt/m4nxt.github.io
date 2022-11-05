@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+:root {
+    --theme-1: #061a40;
+    --theme-2: #003559;
+    --theme-3: #0353a4;
+    --theme-4: #006daa;
+    --theme-5: #B9D6F2;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    background-color: var(--theme-1);
+}
+
+a {
+    all: unset;
+    text-decoration: none;
+}
+
+.header {
+    background-color: var(--theme-2);
+    width: 100vw;
+    height: 60px;
+}
+
+.header .logo-container {
+    height: 60px;
+    display: block;
+}
+
+.header .logo-container .logo {
+    height: 40px;
+    margin: 10px;
+    margin-left: 27.5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.header .logo-container .logo-text {
+    position: absolute;
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+    margin: 0px;
+    display: inline-block;
+}
+
+.header .search-bar-container {
+    position: absolute;
+    margin: 0px;
+    top: 0px;
+    height: 60px;
+    display: inline-block;
+    width: fit-content;
+}
+
+.header .nav-panel .search-bar {
+    cursor: pointer;
+    margin: 0px;
+    font-size: 20px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.header .nav-panel {
+    position: absolute;
+    margin: 0px;
+    top: 0px;
+    right: 0px;
+    height: 60px;
+    display: inline-block;
+    width: fit-content;
+}
+
+.header .nav-panel a {
+    cursor: pointer;
+    margin: 0px;
+    font-size: 20px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.header .nav-panel a:hover {
+    background-color: white;
+    color: var(--theme-2);
+}
+
+.title {
+    font-size: 8vh;
+    text-align: center;
+    margin-top: 6vh;
+    margin-bottom: 8vh;
+}

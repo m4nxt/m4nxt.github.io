@@ -1,0 +1,57 @@
+:root {
+    --theme-1: #061a40;
+    --theme-2: #003559;
+    --theme-3: #0353a4;
+    --theme-4: #006daa;
+    --theme-5: #B9D6F2;
+}
+
+.langGrid {
+    display: grid;
+    grid-template-columns: 32vw 32vw 32vw;
+    margin-left: 2vw;
+}
+
+.langGrid .item {
+    cursor: pointer;
+    background-color: var(--theme-2);
+    border-radius: 25px;
+    text-align: center;
+    font-size: 5vh;
+    padding: 10%;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    transition: all 0.1s ease-in-out; 
+}
+
+.langGrid .item:hover {
+    transform: scale(1.1);
+}
+
+
+.infoGrid {
+    display: grid;
+    grid-template-columns: 32vw 32vw 32vw;
+    margin-left: 2vw;
+}
+
+.infoGrid .itemInfo {
+    cursor: pointer;
+    background-color: var(--theme-3);
+    margin-top: -25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    text-align: center;
+    padding: 25px;
+    padding-top: 50px;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    transition: all 0.25s ease-in-out;
+    z-index: -1;
+    opacity: 0%;
+}
+
+.itemInfo .itemTitle {
+    z-index: 2;
+    font-size: 5vh;
+}
